@@ -114,7 +114,7 @@ export default function Home() {
         </p>
         {/* Card Section */}
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-5xl">
-          {cards.map((card, idx) => (
+          {cards.map((card) => (
             <div
               key={card.title}
               className="group relative bg-white/80 dark:bg-[#18181b]/80 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 flex flex-col items-center shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer overflow-hidden"
